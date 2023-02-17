@@ -1,0 +1,56 @@
+2020-11-19 15:30:40,946 - INFO - Beginning execution of dms2_batch_prefs in directory /fh/fast/bloom_j/computational_notebooks/ceradfor/2020/barcoded_HIV_DMS/additional_analyses/BF520_library_design
+
+2020-11-19 15:30:40,946 - INFO - Progress is being logged to results/prefs_with_stops/summary.log
+2020-11-19 15:30:40,957 - INFO - Version information:
+	Time and date: Thu Nov 19 15:30:40 2020
+	Platform: Linux-4.15.0-101-generic-x86_64-with-debian-buster-sid
+	Python version: 3.7.8 | packaged by conda-forge | (default, Jul 31 2020, 02:25:08)  [GCC 7.5.0]
+	dms_tools2 version: 2.6.7
+	Bio version: 1.78
+	pandas version: 0.25.3
+	numpy version: 1.17.0
+	IPython version: 7.19.0
+	jupyter version: 1.0.0
+	matplotlib version: 3.3.2
+	plotnine version: 0.7.1
+	natsort version: 7.0.1
+	pystan version: 2.19.1.1
+	scipy version: 1.5.4
+	seaborn version: 0.11.0
+	phydmslib version: 2.3.8
+	statsmodels version: 0.12.1
+	rpy2 cannot be imported
+	regex version: 2.5.89
+	umi_tools version: 1.1.0
+
+2020-11-19 15:30:40,958 - INFO - Parsed the following arguments:
+	outdir = results/prefs_with_stops
+	ncpus = -1
+	use_existing = yes
+	method = bayesian
+	indir = data/counts_from_Hugh/renumberedcounts/
+	chartype = codon_to_aa
+	excludestop = no
+	conc = [1, 1, 1]
+	pseudocount = 1
+	batchfile = results/prefs_with_stops/batch.csv
+	summaryprefix = summary
+	no_corr = False
+	no_avg = False
+
+2020-11-19 15:30:40,959 - INFO - Parsing info from results/prefs_with_stops/batch.csv
+2020-11-19 15:30:40,968 - INFO - Read the following sample information:
+name,pre,post,errpre,errpost
+replicate-1,mutDNA-1,mutvirus-1,DNA,virus-1
+replicate-2,mutDNA-2,mutvirus-2,DNA,virus-2
+replicate-3,mutDNA-3,mutvirus-3,DNA,virus-3
+
+
+2020-11-19 15:30:40,969 - INFO - Running dms2_prefs on all samples...
+2020-11-19 22:23:25,881 - INFO - Completed runs of dms2_prefs.
+
+2020-11-19 22:23:25,894 - INFO - Plotting correlations to results/prefs_with_stops/summary_prefscorr.pdf
+
+2020-11-19 22:23:27,285 - INFO - Writing average preferences to results/prefs_with_stops/summary_avgprefs.csv
+
+2020-11-19 22:23:27,335 - INFO - Successful completion of dms2_batch_prefs

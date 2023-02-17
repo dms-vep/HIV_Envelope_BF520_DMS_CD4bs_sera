@@ -1,0 +1,94 @@
+# specify how to do `polyclonal` fitting for antibodies.
+
+# default configuration for monoclonal antibodies (mAbs)
+mAb_default: &mAb_default
+  max_epitopes: 1
+  n_bootstrap_samples: 50
+  min_epitope_activity_to_include: 0.2
+  fit_kwargs:
+    reg_escape_weight: 0.1
+    reg_uniqueness_weight: 0
+    reg_uniqueness2_weight: 1
+    reg_spatial_weight: 0.0
+    reg_spatial2_weight: 0.0005
+  plot_kwargs:
+    addtl_slider_stats:
+      times_seen: 3
+      functional effect: -1.5
+    heatmap_max_at_least: 2
+    heatmap_min_at_least: -2
+    slider_binding_range_kwargs:
+      n_models:
+        step: 1
+      times_seen:
+        step: 1
+        min: 1
+        max: 25
+
+# default configuration of polyclonal sera
+sera_default: &sera_default
+  max_epitopes: 2
+  n_bootstrap_samples: 50
+  min_epitope_activity_to_include: .25
+  fit_kwargs:
+    reg_escape_weight: .1
+    reg_uniqueness_weight: 0
+    reg_uniqueness2_weight: 2
+    reg_spatial_weight: 0.0
+    reg_spatial2_weight: 0.001
+  plot_kwargs:
+    addtl_slider_stats:
+      times_seen: 3
+      functional effect: -1.5
+    heatmap_max_at_least: 2
+    heatmap_min_at_least: -2
+    slider_binding_range_kwargs:
+      n_models:
+        step: 1
+      times_seen:
+        step: 1
+        min: 1
+        max: 25
+
+# define configuration for specific monoclonal antibodies, merging above defaults
+PGT151:
+  <<: *mAb_default
+1-18:
+  <<: *mAb_default
+10-1074: 
+  <<: *mAb_default
+3BNC117:
+  <<: *mAb_default
+VRC01:
+  <<: *mAb_default
+
+# define configuration for specific sera, merging above defaults
+IDC561: 
+  max_epitopes: 1
+  n_bootstrap_samples: 50
+  min_epitope_activity_to_include: .25
+  fit_kwargs:
+    reg_escape_weight: .1
+    reg_uniqueness_weight: 0
+    reg_uniqueness2_weight: 2
+    reg_spatial_weight: 0.0
+    reg_spatial2_weight: 0.001
+  plot_kwargs:
+    addtl_slider_stats:
+      times_seen: 3
+      functional effect: -1.5
+    heatmap_max_at_least: 2
+    heatmap_min_at_least: -2
+    slider_binding_range_kwargs:
+      n_models:
+        step: 1
+      times_seen:
+        step: 1
+        min: 1
+        max: 25
+IDF033: 
+  <<: *sera_default
+IDC508: 
+  <<: *sera_default
+IDC513: 
+  <<: *sera_default

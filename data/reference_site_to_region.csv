@@ -1,0 +1,856 @@
+reference_site,region
+1,signal peptide
+2,signal peptide
+3,signal peptide
+4,signal peptide
+5,signal peptide
+6,signal peptide
+7,signal peptide
+8,signal peptide
+9,signal peptide
+10,signal peptide
+11,signal peptide
+12,signal peptide
+13,signal peptide
+14,signal peptide
+15,signal peptide
+16,signal peptide
+17,signal peptide
+18,signal peptide
+19,signal peptide
+20,signal peptide
+21,signal peptide
+22,signal peptide
+23,signal peptide
+24,signal peptide
+25,signal peptide
+26,signal peptide
+27,signal peptide
+28,signal peptide
+29,signal peptide
+30,signal peptide
+31,gp120
+32,gp120
+33,gp120
+34,gp120
+35,gp120
+36,gp120
+37,gp120
+38,gp120
+39,gp120
+40,gp120
+41,gp120
+42,gp120
+43,gp120
+44,gp120
+45,gp120
+46,gp120
+47,gp120
+48,gp120
+49,gp120
+50,gp120
+51,gp120
+52,gp120
+53,gp120
+54,gp120
+55,gp120
+56,gp120
+57,gp120
+58,gp120
+59,gp120
+60,gp120
+61,gp120
+62,gp120
+63,gp120
+64,gp120
+65,gp120
+66,gp120
+67,gp120
+68,gp120
+69,gp120
+70,gp120
+71,gp120
+72,gp120
+73,gp120
+74,gp120
+75,gp120
+76,gp120
+77,gp120
+78,gp120
+79,gp120
+80,gp120
+81,gp120
+82,gp120
+83,gp120
+84,gp120
+85,gp120
+86,gp120
+87,gp120
+88,gp120
+89,gp120
+90,gp120
+91,gp120
+92,gp120
+93,gp120
+94,gp120
+95,gp120
+96,gp120
+97,gp120
+98,gp120
+99,gp120
+100,gp120
+101,gp120
+102,gp120
+103,gp120
+104,gp120
+105,gp120
+106,gp120
+107,gp120
+108,gp120
+109,gp120
+110,gp120
+111,gp120
+112,gp120
+113,gp120
+114,gp120
+115,gp120
+116,gp120
+117,gp120
+118,gp120
+119,gp120
+120,gp120
+121,gp120
+122,gp120
+123,gp120
+124,gp120
+125,gp120
+126,gp120
+127,gp120
+128,gp120
+129,gp120
+130,gp120
+131,V1 loop
+132,V1 loop
+133,V1 loop
+134,V1 loop
+135,V1 loop
+136,V1 loop
+137,V1 loop
+138,V1 loop
+139,V1 loop
+140,V1 loop
+141,V1 loop
+142,V1 loop
+143,V1 loop
+144,V1 loop
+145,V1 loop
+146,V1 loop
+147,V1 loop
+148,V1 loop
+149,V1 loop
+150,V1 loop
+151,V1 loop
+152,V1 loop
+153,V1 loop
+154,V1 loop
+155,V1 loop
+156,V1 loop
+157,V2 loop
+158,V2 loop
+159,V2 loop
+160,V2 loop
+161,V2 loop
+162,V2 loop
+163,V2 loop
+164,V2 loop
+165,V2 loop
+166,V2 loop
+167,V2 loop
+168,V2 loop
+169,V2 loop
+170,V2 loop
+171,V2 loop
+172,V2 loop
+173,V2 loop
+174,V2 loop
+175,V2 loop
+176,V2 loop
+177,V2 loop
+178,V2 loop
+179,V2 loop
+180,V2 loop
+181,V2 loop
+182,V2 loop
+183,V2 loop
+184,V2 loop
+185,V2 loop
+186,V2 loop
+187,V2 loop
+188,V2 loop
+189,V2 loop
+190,V2 loop
+191,V2 loop
+192,V2 loop
+193,V2 loop
+194,V2 loop
+195,V2 loop
+196,V2 loop
+197,gp120
+198,gp120
+199,gp120
+200,gp120
+201,gp120
+202,gp120
+203,gp120
+204,gp120
+205,gp120
+206,gp120
+207,gp120
+208,gp120
+209,gp120
+210,gp120
+211,gp120
+212,gp120
+213,gp120
+214,gp120
+215,gp120
+216,gp120
+217,gp120
+218,gp120
+219,gp120
+220,gp120
+221,gp120
+222,gp120
+223,gp120
+224,gp120
+225,gp120
+226,gp120
+227,gp120
+228,gp120
+229,gp120
+230,gp120
+231,gp120
+232,gp120
+233,gp120
+234,gp120
+235,gp120
+236,gp120
+237,gp120
+238,gp120
+239,gp120
+240,gp120
+241,gp120
+242,gp120
+243,gp120
+244,gp120
+245,gp120
+246,gp120
+247,gp120
+248,gp120
+249,gp120
+250,gp120
+251,gp120
+252,gp120
+253,gp120
+254,gp120
+255,gp120
+256,gp120
+257,gp120
+258,gp120
+259,gp120
+260,gp120
+261,gp120
+262,gp120
+263,gp120
+264,gp120
+265,gp120
+266,gp120
+267,gp120
+268,gp120
+269,gp120
+270,gp120
+271,gp120
+272,gp120
+273,gp120
+274,gp120
+275,Loop D
+276,Loop D
+277,Loop D
+278,Loop D
+279,Loop D
+280,Loop D
+281,Loop D
+282,Loop D
+283,Loop D
+284,gp120
+285,gp120
+286,gp120
+287,gp120
+288,gp120
+289,gp120
+290,gp120
+291,gp120
+292,gp120
+293,gp120
+294,gp120
+295,gp120
+296,V3 loop
+297,V3 loop
+298,V3 loop
+299,V3 loop
+300,V3 loop
+301,V3 loop
+302,V3 loop
+303,V3 loop
+304,V3 loop
+305,V3 loop
+306,V3 loop
+307,V3 loop
+308,V3 loop
+309,V3 loop
+310,V3 loop
+311,V3 loop
+312,V3 loop
+313,V3 loop
+314,V3 loop
+315,V3 loop
+316,V3 loop
+317,V3 loop
+318,V3 loop
+319,V3 loop
+320,V3 loop
+321,V3 loop
+322,V3 loop
+323,V3 loop
+324,V3 loop
+325,V3 loop
+326,V3 loop
+327,V3 loop
+328,V3 loop
+329,V3 loop
+330,V3 loop
+331,V3 loop
+332,gp120
+333,gp120
+334,gp120
+335,gp120
+336,gp120
+337,gp120
+338,gp120
+339,gp120
+340,gp120
+341,gp120
+342,gp120
+343,gp120
+344,gp120
+345,gp120
+346,gp120
+347,gp120
+348,gp120
+349,gp120
+350,gp120
+351,gp120
+352,gp120
+353,gp120
+354,gp120
+355,gp120
+356,gp120
+357,gp120
+358,gp120
+359,gp120
+360,gp120
+361,gp120
+362,gp120
+363,gp120
+364,CD4 binding loop
+365,CD4 binding loop
+366,CD4 binding loop
+367,CD4 binding loop
+368,CD4 binding loop
+369,CD4 binding loop
+370,CD4 binding loop
+371,CD4 binding loop
+372,CD4 binding loop
+373,CD4 binding loop
+374,CD4 binding loop
+375,gp120
+376,gp120
+377,gp120
+378,gp120
+379,gp120
+380,gp120
+381,gp120
+382,gp120
+383,gp120
+384,gp120
+385,V4 loop
+386,V4 loop
+387,V4 loop
+388,V4 loop
+389,V4 loop
+390,V4 loop
+391,V4 loop
+392,V4 loop
+393,V4 loop
+394,V4 loop
+395,V4 loop
+396,V4 loop
+397,V4 loop
+398,V4 loop
+399,V4 loop
+400,V4 loop
+401,V4 loop
+402,V4 loop
+403,V4 loop
+404,V4 loop
+405,V4 loop
+406,V4 loop
+407,V4 loop
+408,V4 loop
+409,V4 loop
+410,V4 loop
+411,V4 loop
+412,V4 loop
+413,V4 loop
+414,V4 loop
+415,V4 loop
+416,V4 loop
+417,V4 loop
+418,V4 loop
+419,gp120
+420,gp120
+421,beta20/beta21
+422,beta20/beta21
+423,beta20/beta21
+424,beta20/beta21
+425,beta20/beta21
+426,beta20/beta21
+427,beta20/beta21
+428,beta20/beta21
+429,beta20/beta21
+430,beta20/beta21
+431,beta20/beta21
+432,beta20/beta21
+433,beta20/beta21
+434,beta20/beta21
+435,beta20/beta21
+436,beta20/beta21
+437,beta20/beta21
+438,gp120
+439,gp120
+440,gp120
+441,gp120
+442,gp120
+443,gp120
+444,gp120
+445,gp120
+446,gp120
+447,gp120
+448,gp120
+449,gp120
+450,gp120
+451,beta23
+452,beta23
+453,beta23
+454,beta23
+455,beta23
+456,beta23
+457,beta23
+458,beta23
+459,gp120
+460,V5 loop
+461,V5 loop
+462,V5 loop
+463,V5 loop
+464,V5 loop
+465,V5 loop/beta24
+466,V5 loop/beta24
+467,V5 loop/beta24
+468,V5 loop/beta24
+469,V5 loop/beta24
+470,beta24
+471,beta24
+472,gp120
+473,gp120
+474,gp120
+475,gp120
+476,gp120
+477,gp120
+478,gp120
+479,gp120
+480,gp120
+481,gp120
+482,gp120
+483,gp120
+484,gp120
+485,gp120
+486,gp120
+487,gp120
+488,gp120
+489,gp120
+490,gp120
+491,gp120
+492,gp120
+493,gp120
+494,gp120
+495,gp120
+496,gp120
+497,gp120
+498,gp120
+499,gp120
+500,gp120
+501,gp120
+502,gp120
+503,gp120
+504,gp120
+505,gp120
+506,gp120
+507,gp120
+508,cleavage site
+509,cleavage site
+510,cleavage site
+511,cleavage site
+512,fusion peptide
+513,fusion peptide
+514,fusion peptide
+515,fusion peptide
+516,fusion peptide
+517,fusion peptide
+518,fusion peptide
+519,fusion peptide
+520,fusion peptide
+521,fusion peptide
+522,fusion peptide
+523,fusion peptide
+524,fusion peptide
+525,fusion peptide
+526,fusion peptide
+527,fusion peptide
+528,gp41
+529,gp41
+530,gp41
+531,gp41
+532,gp41
+533,gp41
+534,gp41
+535,N-helix
+536,N-helix
+537,N-helix
+538,N-helix
+539,N-helix
+540,N-helix
+541,N-helix
+542,N-helix
+543,N-helix
+544,N-helix
+545,N-helix
+546,N-helix
+547,N-helix
+548,N-helix
+549,N-helix
+550,N-helix
+551,N-helix
+552,N-helix
+553,N-helix
+554,N-helix
+555,N-helix
+556,N-helix
+557,N-helix
+558,N-helix
+559,N-helix
+560,N-helix
+561,N-helix
+562,N-helix
+563,N-helix
+564,N-helix
+565,N-helix
+566,N-helix
+567,N-helix
+568,N-helix
+569,N-helix
+570,N-helix
+571,N-helix
+572,N-helix
+573,N-helix
+574,N-helix
+575,N-helix
+576,N-helix
+577,N-helix
+578,N-helix
+579,N-helix
+580,N-helix
+581,N-helix
+582,N-helix
+583,N-helix
+584,N-helix
+585,N-helix
+586,N-helix
+587,N-helix
+588,N-helix
+589,N-helix
+590,N-helix
+591,N-helix
+592,N-helix
+593,N-helix
+594,N-helix
+595,N-helix
+596,gp41
+597,gp41
+598,gp41
+599,gp41
+600,gp41
+601,gp41
+602,gp41
+603,gp41
+604,gp41
+605,gp41
+606,gp41
+607,gp41
+608,gp41
+609,gp41
+610,gp41
+611,gp41
+612,gp41
+613,gp41
+614,gp41
+615,gp41
+616,gp41
+617,gp41
+618,C-helix
+619,C-helix
+620,C-helix
+621,C-helix
+622,C-helix
+623,C-helix
+624,C-helix
+625,C-helix
+626,C-helix
+627,C-helix
+628,C-helix
+629,C-helix
+630,C-helix
+631,C-helix
+632,C-helix
+633,C-helix
+634,C-helix
+635,C-helix
+636,C-helix
+637,C-helix
+638,C-helix
+639,C-helix
+640,C-helix
+641,C-helix
+642,C-helix
+643,C-helix
+644,C-helix
+645,C-helix
+646,C-helix
+647,C-helix
+648,C-helix
+649,C-helix
+650,C-helix
+651,C-helix
+652,C-helix
+653,C-helix
+654,C-helix
+655,C-helix
+656,C-helix
+657,C-helix
+658,C-helix
+659,C-helix
+660,C-helix
+661,C-helix
+662,C-helix
+663,C-helix
+664,C-helix
+665,C-helix
+666,gp41
+667,gp41
+668,gp41
+669,gp41
+670,gp41
+671,gp41
+672,gp41
+673,gp41
+674,gp41
+675,gp41
+676,gp41
+677,gp41
+678,gp41
+679,gp41
+680,gp41
+681,gp41
+682,gp41
+683,gp41
+684,gp41
+685,transmembrane domain
+686,transmembrane domain
+687,transmembrane domain
+688,transmembrane domain
+689,transmembrane domain
+690,transmembrane domain
+691,transmembrane domain
+692,transmembrane domain
+693,transmembrane domain
+694,transmembrane domain
+695,transmembrane domain
+696,transmembrane domain
+697,transmembrane domain
+698,transmembrane domain
+699,transmembrane domain
+700,transmembrane domain
+701,transmembrane domain
+702,transmembrane domain
+703,transmembrane domain
+704,transmembrane domain
+705,Cytoplasmic tail
+706,Cytoplasmic tail
+707,Cytoplasmic tail
+708,Cytoplasmic tail
+709,Cytoplasmic tail
+710,Cytoplasmic tail
+711,Cytoplasmic tail
+712,Cytoplasmic tail
+713,Cytoplasmic tail
+714,Cytoplasmic tail
+715,Cytoplasmic tail
+716,Cytoplasmic tail
+717,Cytoplasmic tail
+718,Cytoplasmic tail
+719,Cytoplasmic tail
+720,Cytoplasmic tail
+721,Cytoplasmic tail
+722,Cytoplasmic tail
+723,Cytoplasmic tail
+724,Cytoplasmic tail
+725,Cytoplasmic tail
+726,Cytoplasmic tail
+727,Cytoplasmic tail
+728,Cytoplasmic tail
+729,Cytoplasmic tail
+730,Cytoplasmic tail
+731,Cytoplasmic tail
+732,Cytoplasmic tail
+733,Cytoplasmic tail
+734,Cytoplasmic tail
+735,Cytoplasmic tail
+736,Cytoplasmic tail
+737,Cytoplasmic tail
+738,Cytoplasmic tail
+739,Cytoplasmic tail
+740,Cytoplasmic tail
+741,Cytoplasmic tail
+742,Cytoplasmic tail
+743,Cytoplasmic tail
+744,Cytoplasmic tail
+745,Cytoplasmic tail
+746,Cytoplasmic tail
+747,Cytoplasmic tail
+748,Cytoplasmic tail
+749,Cytoplasmic tail
+750,Cytoplasmic tail
+751,Cytoplasmic tail
+752,Cytoplasmic tail
+753,Cytoplasmic tail
+754,Cytoplasmic tail
+755,Cytoplasmic tail
+756,Cytoplasmic tail
+757,Cytoplasmic tail
+758,Cytoplasmic tail
+759,Cytoplasmic tail
+760,Cytoplasmic tail
+761,Cytoplasmic tail
+762,Cytoplasmic tail
+763,Cytoplasmic tail
+764,Cytoplasmic tail
+765,Cytoplasmic tail
+766,Cytoplasmic tail
+767,Cytoplasmic tail
+768,Cytoplasmic tail
+769,Cytoplasmic tail
+770,Cytoplasmic tail
+771,Cytoplasmic tail
+772,Cytoplasmic tail
+773,Cytoplasmic tail
+774,Cytoplasmic tail
+775,Cytoplasmic tail
+776,Cytoplasmic tail
+777,Cytoplasmic tail
+778,Cytoplasmic tail
+779,Cytoplasmic tail
+780,Cytoplasmic tail
+781,Cytoplasmic tail
+782,Cytoplasmic tail
+783,Cytoplasmic tail
+784,Cytoplasmic tail
+785,Cytoplasmic tail
+786,Cytoplasmic tail
+787,Cytoplasmic tail
+788,Cytoplasmic tail
+789,Cytoplasmic tail
+790,Cytoplasmic tail
+791,Cytoplasmic tail
+792,Cytoplasmic tail
+793,Cytoplasmic tail
+794,Cytoplasmic tail
+795,Cytoplasmic tail
+796,Cytoplasmic tail
+797,Cytoplasmic tail
+798,Cytoplasmic tail
+799,Cytoplasmic tail
+800,Cytoplasmic tail
+801,Cytoplasmic tail
+802,Cytoplasmic tail
+803,Cytoplasmic tail
+804,Cytoplasmic tail
+805,Cytoplasmic tail
+806,Cytoplasmic tail
+807,Cytoplasmic tail
+808,Cytoplasmic tail
+809,Cytoplasmic tail
+810,Cytoplasmic tail
+811,Cytoplasmic tail
+812,Cytoplasmic tail
+813,Cytoplasmic tail
+814,Cytoplasmic tail
+815,Cytoplasmic tail
+816,Cytoplasmic tail
+817,Cytoplasmic tail
+818,Cytoplasmic tail
+819,Cytoplasmic tail
+820,Cytoplasmic tail
+821,Cytoplasmic tail
+822,Cytoplasmic tail
+823,Cytoplasmic tail
+824,Cytoplasmic tail
+825,Cytoplasmic tail
+826,Cytoplasmic tail
+827,Cytoplasmic tail
+828,Cytoplasmic tail
+829,Cytoplasmic tail
+830,Cytoplasmic tail
+831,Cytoplasmic tail
+832,Cytoplasmic tail
+833,Cytoplasmic tail
+834,Cytoplasmic tail
+835,Cytoplasmic tail
+836,Cytoplasmic tail
+837,Cytoplasmic tail
+838,Cytoplasmic tail
+839,Cytoplasmic tail
+840,Cytoplasmic tail
+841,Cytoplasmic tail
+842,Cytoplasmic tail
+843,Cytoplasmic tail
+844,Cytoplasmic tail
+845,Cytoplasmic tail
+846,Cytoplasmic tail
+847,Cytoplasmic tail
+848,Cytoplasmic tail
+849,Cytoplasmic tail
+850,Cytoplasmic tail
+851,Cytoplasmic tail
+852,Cytoplasmic tail
+853,Cytoplasmic tail
+854,Cytoplasmic tail
+855,Cytoplasmic tail

@@ -1,0 +1,25 @@
+name: library_design_env
+channels:
+  - bioconda
+  - r
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython
+  - jupyter
+  - numpy
+  - pandas
+  - pip
+  - python
+  - snakemake
+  - yaml
+  - pip:
+    - Distance
+    - dms_tools2
+    - matplotlib
+    - multiprocess
+    - plotnine
+    - regex
+    - scipy
+prefix: /fh/fast/bloom_j/computational_notebooks/ceradfor/2020/barcoded_HIV_DMS/env
+

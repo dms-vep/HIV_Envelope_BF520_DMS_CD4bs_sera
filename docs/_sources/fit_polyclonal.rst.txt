@@ -1,0 +1,23 @@
+
+Fit ``polyclonal`` models
+-------------------------
+
+- :doc:`A_2022-07-20_rescue-2_PGT151_1 <fit_polyclonal_A_2022-07-20_rescue-2_PGT151_1>`
+- :doc:`A_2022-07-20_rescue-2_PGT151_2 <fit_polyclonal_A_2022-07-20_rescue-2_PGT151_2>`
+- :doc:`A_2022-07-20_rescue-2_1-18_1 <fit_polyclonal_A_2022-07-20_rescue-2_1-18_1>`
+- :doc:`A_2022-07-20_rescue-2_1-18_2 <fit_polyclonal_A_2022-07-20_rescue-2_1-18_2>`
+- :doc:`A_2022-08-04_rescue-1_3BNC117_1 <fit_polyclonal_A_2022-08-04_rescue-1_3BNC117_1>`
+- :doc:`B_2022-08-04_rescue-2_IDC561_1 <fit_polyclonal_B_2022-08-04_rescue-2_IDC561_1>`
+- :doc:`B_2022-09-12_rescue-1_PGT151_1 <fit_polyclonal_B_2022-09-12_rescue-1_PGT151_1>`
+- :doc:`A_2022-09-27_rescue-3_IDC561_1 <fit_polyclonal_A_2022-09-27_rescue-3_IDC561_1>`
+- :doc:`B_2022-09-27_rescue-3_IDC561_1 <fit_polyclonal_B_2022-09-27_rescue-3_IDC561_1>`
+- :doc:`B_2022-09-27_rescue-3_IDF033_1 <fit_polyclonal_B_2022-09-27_rescue-3_IDF033_1>`
+- :doc:`B_2022-09-27_rescue-3_IDC508_1 <fit_polyclonal_B_2022-09-27_rescue-3_IDC508_1>`
+- :doc:`B_2022-10-11_rescue-4_IDC513_1 <fit_polyclonal_B_2022-10-11_rescue-4_IDC513_1>`
+- :doc:`B_2022-10-11_rescue-4_3BNC117_1 <fit_polyclonal_B_2022-10-11_rescue-4_3BNC117_1>`
+- :doc:`B_2022-10-11_rescue-4_1-18_1 <fit_polyclonal_B_2022-10-11_rescue-4_1-18_1>`
+- :doc:`A_2022-10-17_rescue-4_IDF033_1 <fit_polyclonal_A_2022-10-17_rescue-4_IDF033_1>`
+- :doc:`A_2022-10-17_rescue-4_IDC508_1 <fit_polyclonal_A_2022-10-17_rescue-4_IDC508_1>`
+- :doc:`A_2022-10-17_rescue-4_IDC513_1 <fit_polyclonal_A_2022-10-17_rescue-4_IDC513_1>`
+- :doc:`A_2022-10-17_rescue-4_3BNC117_1 <fit_polyclonal_A_2022-10-17_rescue-4_3BNC117_1>`
+

@@ -1,0 +1,684 @@
+LOCUS       1890_pHAGE2repai        7454 bp    DNA        circular     20-APR-2022
+DEFINITION  Lentiviral vector plasmid from Alex Balazs.
+ACCESSION   .
+SOURCE      Unknown.
+  ORGANISM  Unknown Unclassified.
+REFERENCE   1  (bases 1 to 8541)
+  AUTHORS   Self
+  JOURNAL   Unpublished.
+COMMENT     This is a version of the pHAGE2-CMV-ZsGreen-W plasmid in which the
+            3' LTR has been repaired to make the vector no longer
+            self-inactivating. Created by Jesse Bloom and Caelan Radford.
+COMMENT     
+COMMENT     Specifically, pHAGE2repairU3-CMV-ZsGreen-W is modified version of
+            the Bloom lab plasmid 25 - pHAGE2-CMV-ZsGreen-W in which the U3 has
+            been repaired to make the vector **non**-self-inactivating. The
+            repairs were done by duplicating nucleotides 1-636 of
+            pHAGE2-CMV-ZsGreen-W (which is the 5'-LTR, and corresponds to the
+            3' / 5'-LTR of HIV strain pSF256.8) to replace the deleted 3'-LTR
+            at positions 4177-4431 in the original 25 - pHAGE2-CMV-ZsGreen-W
+            plasmid. Some notes on this plasmid:
+COMMENT     
+COMMENT         - **nucleotides 1-636**: A BLAST search reveals that the 636-nt
+            region annotated as *5'-LTR* is an exact match to nucleotides
+            9088-9723 of [HIV-1 clone
+            pSF256.8](https://www.ncbi.nlm.nih.gov/nucleotide/1127783600?report
+            =genbank&log$=nuclalign&blast_rank=1&RID=WUXT67NM014). This region
+            represents the 3'-LTR of that clone according to the Genbank
+            annotation.
+COMMENT     
+COMMENT         - **nucleotides 637-789**: A BLAST search reveals that this
+            region is an exact match to nucleotides 637-689 of [HIV-1 clone
+            pSF256.8](https://www.ncbi.nlm.nih.gov/nucleotide/1127783600?report
+            =genbank&log$=nuclalign&blast_rank=1&RID=WUXT67NM014) with the
+            exception of a single-nucleotide difference at site 654. This
+            region extends to the start codon of Gag.
+COMMENT     
+COMMENT         - **nucleotides 4177-4812**: This sequence exactly matches
+            nucleotides 1-636, and so is the 3'-LTR of pSF256.8.
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    637..1155
+                     /gene="psi"
+                     /product="pbs-gag"
+                     /vntifkey="21"
+                     /note="PSI Packaging Sequence"
+                     /locus_tag="pbs-gag"
+                     /label="pbs-gag"
+                     /ApEinfo_label="pbs-gag"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1303..1536
+                     /gene="rre"
+                     /product="minimal RRE"
+                     /vntifkey="21"
+                     /note="Rev Responsive Element"
+                     /locus_tag="minimal RRE"
+                     /label="minimal RRE"
+                     /ApEinfo_label="minimal RRE"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    2034..2211
+                     /gene="cppt"
+                     /vntifkey="21"
+                     /note="Central Poly Purine Track"
+                     /locus_tag="cppt"
+                     /label="cppt"
+                     /ApEinfo_label="cppt"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        2218..2802
+                     /gene="CMVp"
+                     /product="CMV IE promoter"
+                     /vntifkey="29"
+                     /note="Cytomegalovirus Promoter"
+                     /locus_tag="CMV IE promoter"
+                     /label="CMV IE promoter"
+                     /ApEinfo_label="CMV IE promoter"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    3514..4105
+                     /gene="WPRE"
+                     /vntifkey="21"
+                     /note="Woodchuck Hepatitis Virus Posttranscriptional
+                     Regulatory Element"
+                     /locus_tag="WPRE"
+                     /label="WPRE"
+                     /ApEinfo_label="WPRE"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             5068..5907
+                     /gene="AMPr"
+                     /product="beta-lactamase (mature form)"
+                     /vntifkey="4"
+                     /note="Ampicillin Resistance Gene"
+                     /locus_tag="beta-lactamase (mature form)"
+                     /label="beta-lactamase (mature form)"
+                     /ApEinfo_label="beta-lactamase (mature form)"
+                     /ApEinfo_fwdcolor="#55ff73"
+                     /ApEinfo_revcolor="#5bff6c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     rep_origin      6136..6669
+                     /gene="ORI"
+                     /product="ColE1 origin of replication"
+                     /vntifkey="33"
+                     /note="Bacterial Origin of Replication"
+                     /locus_tag="ColE1 origin of replication"
+                     /label="ColE1 origin of replication"
+                     /ApEinfo_label="ColE1 origin of replication"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    6906..7029
+                     /gene="SV40 ori"
+                     /vntifkey="21"
+                     /locus_tag="SV40 ori"
+                     /label="SV40 ori"
+                     /ApEinfo_label="SV40 ori"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     prim_transcript 2754..2754
+                     /vntifkey="91"
+                     /note="CMV Transcriptional Start Site"
+                     /locus_tag="CMV Transcriptional Start Site"
+                     /label="CMV Transcriptional Start Site"
+                     /ApEinfo_label="CMV Transcriptional Start Site"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     TATA_signal     2722..2726
+                     /vntifkey="41"
+                     /note="CMV Promoter TATA Box"
+                     /locus_tag="CMV Promoter TATA Box"
+                     /label="CMV Promoter TATA Box"
+                     /ApEinfo_label="CMV Promoter TATA Box"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    697..806
+                     /vntifkey="21"
+                     /locus_tag="misc_feature"
+                     /label="misc_feature"
+                     /ApEinfo_label="misc_feature"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    807..1144
+                     /vntifkey="21"
+                     /note="HIV gag sequence 351bp to 688bp"
+                     /locus_tag="HIV gag sequence 351bp to 688bp"
+                     /label="HIV gag sequence 351bp to 688bp"
+                     /ApEinfo_label="HIV gag sequence 351bp to 688bp"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     promoter        5015..5049
+                     /vntifkey="30"
+                     /note="Beta Lactamase Promoter"
+                     /locus_tag="Beta Lactamase Promoter"
+                     /label="Beta Lactamase Promoter"
+                     /ApEinfo_label="Beta Lactamase Promoter"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     2746..2766
+                     /vntifkey="28"
+                     /locus_tag="primer_bind"
+                     /label="primer_bind"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     complement(3542..3576)
+                     /vntifkey="28"
+                     /locus_tag="primer_bind(1)"
+                     /label="primer_bind(1)"
+                     /ApEinfo_label="primer_bind"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4110..4176
+                     /vntifkey="21"
+                     /note="HIV nef"
+                     /locus_tag="HIV nef"
+                     /label="HIV nef"
+                     /ApEinfo_label="HIV nef"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4160..4174
+                     /vntifkey="21"
+                     /note="PolyPurine Tract"
+                     /locus_tag="PolyPurine Tract"
+                     /label="PolyPurine Tract"
+                     /ApEinfo_label="PolyPurine Tract"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     mutation        833..834
+                     /vntifkey="62"
+                     /note="Filled in Cla Site from original HIV genome to
+                     disrupt gag polyprotein ORF"
+                     /locus_tag="Filled in Cla Site from original HIV genome to
+                     dis"
+                     /label="Filled in Cla Site from original HIV genome to
+                     dis"
+                     /ApEinfo_label="Filled in Cla Site from original HIV
+                     genome to dis"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     splicing_signal 744..745
+                     /vntifkey="38"
+                     /note="Major 5' Splice Donor 289"
+                     /locus_tag="Major 5' Splice Donor 289"
+                     /label="Major 5' Splice Donor 289"
+                     /ApEinfo_label="Major 5' Splice Donor 289"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     splicing_signal 1911..1912
+                     /vntifkey="38"
+                     /locus_tag="splicing_signal"
+                     /label="splicing_signal"
+                     /ApEinfo_label="splicing_signal"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     splicing_signal 2188..2189
+                     /vntifkey="38"
+                     /locus_tag="splicing_signal(1)"
+                     /label="splicing_signal(1)"
+                     /ApEinfo_label="splicing_signal"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     mutation        1357..1357
+                     /vntifkey="62"
+                     /note="This G is a C in the WT HIV-1 genome"
+                     /locus_tag="This G is a C in the WT HIV-1 genome"
+                     /label="This G is a C in the WT HIV-1 genome"
+                     /ApEinfo_label="This G is a C in the WT HIV-1 genome"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    2014..2027
+                     /vntifkey="21"
+                     /note="Linker Junk Sequence probably left over from
+                     cloning"
+                     /locus_tag="Linker Junk Sequence probably left over from
+                     cloni"
+                     /label="Linker Junk Sequence probably left over from
+                     cloni"
+                     /ApEinfo_label="Linker Junk Sequence probably left over
+                     from cloni"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             1156..2013
+                     /vntifkey="4"
+                     /note="HIV env sequence from bp7168 to 8025 (contains RRE)
+                     Cloned from BglII to BamHI out of HIV"
+                     /locus_tag="HIV env sequence from bp7168 to 8025 (contains
+                     RRE"
+                     /label="HIV env sequence from bp7168 to 8025 (contains
+                     RRE"
+                     /ApEinfo_label="HIV env sequence from bp7168 to 8025
+                     (contains RRE"
+                     /ApEinfo_fwdcolor="#55ff73"
+                     /ApEinfo_revcolor="#5bff6c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             790..1144
+                     /vntifkey="4"
+                     /note="HIV gag sequence from 336bp to 688bp (Clone to
+                     PvuII site in HIV and filled in ClaI digest to take gag
+                     CDS out of frame)"
+                     /locus_tag="HIV gag sequence from 336bp to 688bp (Clone to
+                     Pvu"
+                     /label="HIV gag sequence from 336bp to 688bp (Clone to
+                     Pvu"
+                     /ApEinfo_label="HIV gag sequence from 336bp to 688bp
+                     (Clone to Pvu"
+                     /ApEinfo_fwdcolor="#55ff73"
+                     /ApEinfo_revcolor="#5bff6c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    853..855
+                     /vntifkey="21"
+                     /note="Stop codon in gag put in frame by ClaI fill in"
+                     /locus_tag="Stop codon in gag put in frame by ClaI fill
+                     in"
+                     /label="Stop codon in gag put in frame by ClaI fill in"
+                     /ApEinfo_label="Stop codon in gag put in frame by ClaI
+                     fill in"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1245..1593
+                     /vntifkey="21"
+                     /note="Rev Responsive Element according to Belasco in
+                     Molecular Cell, Vol. 7, 603-614, March, 2001"
+                     /locus_tag="RRE"
+                     /label="RRE"
+                     /ApEinfo_label="RRE"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     stem_loop       697..731
+                     /vntifkey="39"
+                     /note="PSI Stem loop 1"
+                     /locus_tag="PSI Stem loop 1"
+                     /label="PSI Stem loop 1"
+                     /ApEinfo_label="PSI Stem loop 1"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     stem_loop       736..754
+                     /vntifkey="39"
+                     /note="PSI Stem loop 2"
+                     /locus_tag="PSI Stem loop 2"
+                     /label="PSI Stem loop 2"
+                     /ApEinfo_label="PSI Stem loop 2"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     stem_loop       766..779
+                     /vntifkey="39"
+                     /note="PSI Stem Loop 3"
+                     /locus_tag="PSI Stem Loop 3"
+                     /label="PSI Stem Loop 3"
+                     /ApEinfo_label="PSI Stem Loop 3"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     stem_loop       793..806
+                     /vntifkey="39"
+                     /note="PSI Stem Loop 4"
+                     /locus_tag="PSI Stem Loop 4"
+                     /label="PSI Stem Loop 4"
+                     /ApEinfo_label="PSI Stem Loop 4"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     CDS             2812..3507
+                     /vntifkey="4"
+                     /note="ZsGreen Fluorescent Protein"
+                     /locus_tag="ZsGreen Fluorescent Protein"
+                     /label="ZsGreen Fluorescent Protein"
+                     /ApEinfo_label="ZsGreen Fluorescent Protein"
+                     /ApEinfo_fwdcolor="#55ff73"
+                     /ApEinfo_revcolor="#5bff6c"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    637..789
+                     /locus_tag="noncoding region upstream of Gag"
+                     /label="noncoding region upstream of Gag"
+                     /ApEinfo_label="noncoding region upstream of Gag"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     variation       654..654
+                     /locus_tag="C->T relative to HIV pSF256.8"
+                     /label="C->T relative to HIV pSF256.8"
+                     /ApEinfo_label="C->T relative to HIV pSF256.8"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     LTR             1..636
+                     /gene="LTR"
+                     /vntifkey="19"
+                     /note="Long Terminal Repeat"
+                     /locus_tag="LTR"
+                     /label="LTR"
+                     /ApEinfo_label="LTR"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     LTR             4177..4812
+                     /gene="LTR"
+                     /vntifkey="19"
+                     /note="Long Terminal Repeat"
+                     /locus_tag="LTR(1)"
+                     /label="LTR(1)"
+                     /ApEinfo_label="LTR"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    455..551
+                     /vntifkey="21"
+                     /note="HIV Repeat Region"
+                     /locus_tag="HIV Repeat Region"
+                     /label="HIV Repeat Region"
+                     /ApEinfo_label="HIV Repeat Region"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4631..4727
+                     /vntifkey="21"
+                     /note="HIV Repeat Region"
+                     /locus_tag="HIV Repeat Region(1)"
+                     /label="HIV Repeat Region(1)"
+                     /ApEinfo_label="HIV Repeat Region"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    552..636
+                     /vntifkey="21"
+                     /note="HIV U5"
+                     /locus_tag="HIV U5"
+                     /label="HIV U5"
+                     /ApEinfo_label="HIV U5"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4728..4812
+                     /vntifkey="21"
+                     /note="HIV U5"
+                     /locus_tag="HIV U5(1)"
+                     /label="HIV U5(1)"
+                     /ApEinfo_label="HIV U5"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1..454
+                     /vntifkey="21"
+                     /note="Full Length HIV U3"
+                     /locus_tag="Full Length HIV U3"
+                     /label="Full Length HIV U3"
+                     /ApEinfo_label="Full Length HIV U3"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    4177..4630
+                     /vntifkey="21"
+                     /note="Full Length HIV U3"
+                     /locus_tag="Full Length HIV U3(1)"
+                     /label="Full Length HIV U3(1)"
+                     /ApEinfo_label="Full Length HIV U3"
+                     /ApEinfo_fwdcolor="#ff41ee"
+                     /ApEinfo_revcolor="#ff4fed"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     5'UTR           551..635
+                     /vntifkey="52"
+                     /note="HIV 5' UTR"
+                     /locus_tag="HIV 5' UTR"
+                     /label="HIV 5' UTR"
+                     /ApEinfo_label="HIV 5' UTR"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     5'UTR           4727..4811
+                     /vntifkey="52"
+                     /note="HIV 5' UTR"
+                     /locus_tag="HIV 5' UTR(1)"
+                     /label="HIV 5' UTR(1)"
+                     /ApEinfo_label="HIV 5' UTR"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_site      550..550
+                     /vntifkey="26"
+                     /note="Exact base to which Poly-A is added"
+                     /locus_tag="Exact base to which Poly-A is added"
+                     /label="Exact base to which Poly-A is added"
+                     /ApEinfo_label="Exact base to which Poly-A is added"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_site      4726..4726
+                     /vntifkey="26"
+                     /note="Exact base to which Poly-A is added"
+                     /locus_tag="Exact base to which Poly-A is added(1)"
+                     /label="Exact base to which Poly-A is added(1)"
+                     /ApEinfo_label="Exact base to which Poly-A is added"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_signal    570..577
+                     /vntifkey="25"
+                     /note="GT Cluster shown to be necessary for Poly-A site
+                     activity by Cullen in J Virol. 1989 January;
+                     63(1):421-424"
+                     /locus_tag="GT Cluster shown to be necessary for Poly-A
+                     site a"
+                     /label="GT Cluster shown to be necessary for Poly-A site
+                     a"
+                     /ApEinfo_label="GT Cluster shown to be necessary for
+                     Poly-A site a"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     polyA_signal    4746..4753
+                     /vntifkey="25"
+                     /note="GT Cluster shown to be necessary for Poly-A site
+                     activity by Cullen in J Virol. 1989 January;
+                     63(1):421-424"
+                     /locus_tag="GT Cluster shown to be necessary for Poly-A
+                     site a(1)"
+                     /label="GT Cluster shown to be necessary for Poly-A site
+                     a(1)"
+                     /ApEinfo_label="GT Cluster shown to be necessary for
+                     Poly-A site a"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+ORIGIN
+        1 tggaagggct aattcactcc caaagaagac aagatatcct tgatctgtgg atctaccaca
+       61 cacaaggcta cttccctgat tagcagaact acacaccagg gccaggggtc agatatccac
+      121 tgacctttgg atggtgctac aagctagtac cagttgagcc agataaggta gaagaggcca
+      181 ataaaggaga gaacaccagc ttgttacacc ctgtgagcct gcatgggatg gatgacccgg
+      241 agagagaagt gttagagtgg aggtttgaca gccgcctagc atttcatcac gtggcccgag
+      301 agctgcatcc ggagtacttc aagaactgct gatatcgagc ttgctacaag ggactttccg
+      361 ctggggactt tccagggagg cgtggcctgg gcgggactgg ggagtggcga gccctcagat
+      421 cctgcatata agcagctgct ttttgcctgt actgggtctc tctggttaga ccagatctga
+      481 gcctgggagc tctctggcta actagggaac ccactgctta agcctcaata aagcttgcct
+      541 tgagtgcttc aagtagtgtg tgcccgtctg ttgtgtgact ctggtaacta gagatccctc
+      601 agaccctttt agtcagtgtg gaaaatctct agcagtggcg cccgaacagg gacttgaaag
+      661 cgaaagggaa accagaggag ctctctcgac gcaggactcg gcttgctgaa gcgcgcacgg
+      721 caagaggcga ggggcggcga ctggtgagta cgccaaaaat tttgactagc ggaggctaga
+      781 aggagagaga tgggtgcgag agcgtcagta ttaagcgggg gagaattaga tcgcgatggg
+      841 aaaaaattcg gttaaggcca gggggaaaga aaaaatataa attaaaacat atagtatggg
+      901 caagcaggga gctagaacga ttcgcagtta atcctggcct gttagaaaca tcagaaggct
+      961 gtagacaaat actgggacag ctacaaccat cccttcagac aggatcagaa gaacttagat
+     1021 cattatataa tacagtagca accctctatt gtgtgcatca aaggatagag ataaaagaca
+     1081 ccaaggaagc tttagacaag atagaggaag agcaaaacaa aagtaagacc accgcacagc
+     1141 aagcggccgg ccgctgatct tcagacctgg aggaggagat atgagggaca attggagaag
+     1201 tgaattatat aaatataaag tagtaaaaat tgaaccatta ggagtagcac ccaccaaggc
+     1261 aaagagaaga gtggtgcaga gagaaaaaag agcagtggga ataggagctt tgttccttgg
+     1321 gttcttggga gcagcaggaa gcactatggg cgcagcgtca atgacgctga cggtacaggc
+     1381 cagacaatta ttgtctggta tagtgcagca gcagaacaat ttgctgaggg ctattgaggc
+     1441 gcaacagcat ctgttgcaac tcacagtctg gggcatcaag cagctccagg caagaatcct
+     1501 ggctgtggaa agatacctaa aggatcaaca gctcctgggg atttggggtt gctctggaaa
+     1561 actcatttgc accactgctg tgccttggaa tgctagttgg agtaataaat ctctggaaca
+     1621 gatttggaat cacacgacct ggatggagtg ggacagagaa attaacaatt acacaagctt
+     1681 aatacactcc ttaattgaag aatcgcaaaa ccagcaagaa aagaatgaac aagaattatt
+     1741 ggaattagat aaatgggcaa gtttgtggaa ttggtttaac ataacaaatt ggctgtggta
+     1801 tataaaatta ttcataatga tagtaggagg cttggtaggt ttaagaatag tttttgctgt
+     1861 actttctata gtgaatagag ttaggcaggg atattcacca ttatcgtttc agacccacct
+     1921 cccaaccccg aggggacccg acaggcccga aggaatagaa gaagaaggtg gagagagaga
+     1981 cagagacaga tccattcgat tagtgaacgg atctcgacgg tatcgccgaa ttcacaaatg
+     2041 gcagtattca tccacaattt taaaagaaaa ggggggattg gggggtacag tgcaggggaa
+     2101 agaatagtag acataatagc aacagacata caaactaaag aattacaaaa acaaattaca
+     2161 aaaattcaaa attttcgggt ttattacagg gacagcagag atccagtttg gactagtgga
+     2221 gttccgcgtt acataactta cggtaaatgg cccgcctggc tgaccgccca acgacccccg
+     2281 cccattgacg tcaataatga cgtatgttcc catagtaacg ccaataggga ctttccattg
+     2341 acgtcaatgg gtggagtatt tacggtaaac tgcccacttg gcagtacatc aagtgtatca
+     2401 tatgccaagt acgcccccta ttgacgtcaa tgacggtaaa tggcccgcct ggcattatgc
+     2461 ccagtacatg accttatggg actttcctac ttggcagtac atctacgtat tagtcatcgc
+     2521 tattaccatg gtgatgcggt tttggcagta catcaatggg cgtggatagc ggtttgactc
+     2581 acggggattt ccaagtctcc accccattga cgtcaatggg agtttgtttt ggcaccaaaa
+     2641 tcaacgggac tttccaaaat gtcgtaacaa ctccgcccca ttgacgcaaa tgggcggtag
+     2701 gcgtgtacgg tgggaggtct atataagcag agctcgttta gtgaaccgtc agatcgcctg
+     2761 gagacgccat ccacgctgtt ttgacctcca tagaagacac cggcggccgc catggcccag
+     2821 tccaagcacg gcctgaccaa ggagatgacc atgaagtacc gcatggaggg ctgcgtggac
+     2881 ggccacaagt tcgtgatcac cggcgagggc atcggctacc ccttcaaggg caagcaggcc
+     2941 atcaacctgt gcgtggtgga gggcggcccc ttgcccttcg ccgaggacat cttgtccgcc
+     3001 gccttcatgt acggcaaccg cgtgttcacc gagtaccccc aggacatcgt cgactacttc
+     3061 aagaactcct gccccgccgg ctacacctgg gaccgctcct tcctgttcga ggacggcgcc
+     3121 gtgtgcatct gcaacgccga catcaccgtg agcgtggagg agaactgcat gtaccacgag
+     3181 tccaagttct acggcgtgaa cttccccgcc gacggccccg tgatgaagaa gatgaccgac
+     3241 aactgggagc cctcctgcga gaagatcatc cccgtgccca agcagggcat cttgaagggc
+     3301 gacgtgagca tgtacctgct gctgaaggac ggtggccgct tgcgctgcca gttcgacacc
+     3361 gtgtacaagg ccaagtccgt gccccgcaag atgcccgact ggcacttcat ccagcacaag
+     3421 ctgacccgcg aggaccgcag cgacgccaag aaccagaagt ggcacctgac cgagcacgcc
+     3481 atcgcctccg gctccgcctt gccctgagga tcctaatcaa cctctggatt acaaaatttg
+     3541 tgaaagattg actggtattc ttaactatgt tgctcctttt acgctatgtg gatacgctgc
+     3601 tttaatgcct ttgtatcatg ctattgcttc ccgtatggct ttcattttct cctccttgta
+     3661 taaatcctgg ttgctgtctc tttatgagga gttgtggccc gttgtcaggc aacgtggcgt
+     3721 ggtgtgcact gtgtttgctg acgcaacccc cactggttgg ggcattgcca ccacctgtca
+     3781 gctcctttcc gggactttcg ctttccccct ccctattgcc acggcggaac tcatcgccgc
+     3841 ctgccttgcc cgctgctgga caggggctcg gctgttgggc actgacaatt ccgtggtgtt
+     3901 gtcggggaaa tcatcgtcct ttccttggct gctcgcctgt gttgccacct ggattctgcg
+     3961 cgggacgtcc ttctgctacg tcccttcggc cctcaatcca gcggaccttc cttcccgcgg
+     4021 cctgctgccg gctctgcggc ctcttccgcg tcttcgcctt cgccctcaga cgagtcggat
+     4081 ctccctttgg gccgcctccc cgcctggtac ctttaagacc aatgacttac aaggcagctg
+     4141 tagatcttag ccacttttta aaagaaaagg ggggactgga agggctaatt cactcccaaa
+     4201 gaagacaaga tatccttgat ctgtggatct accacacaca aggctacttc cctgattagc
+     4261 agaactacac accagggcca ggggtcagat atccactgac ctttggatgg tgctacaagc
+     4321 tagtaccagt tgagccagat aaggtagaag aggccaataa aggagagaac accagcttgt
+     4381 tacaccctgt gagcctgcat gggatggatg acccggagag agaagtgtta gagtggaggt
+     4441 ttgacagccg cctagcattt catcacgtgg cccgagagct gcatccggag tacttcaaga
+     4501 actgctgata tcgagcttgc tacaagggac tttccgctgg ggactttcca gggaggcgtg
+     4561 gcctgggcgg gactggggag tggcgagccc tcagatcctg catataagca gctgcttttt
+     4621 gcctgtactg ggtctctctg gttagaccag atctgagcct gggagctctc tggctaacta
+     4681 gggaacccac tgcttaagcc tcaataaagc ttgccttgag tgcttcaagt agtgtgtgcc
+     4741 cgtctgttgt gtgactctgg taactagaga tccctcagac ccttttagtc agtgtggaaa
+     4801 atctctagca gtcccgggcg attaaggaaa gggctagatc attcttgaag acgaaagggc
+     4861 ctcgtgatac gcctattttt ataggttaat gtcatgataa taatggtttc ttagacgtca
+     4921 ggtggcactt ttcggggaaa tgtgcgcgga acccctattt gtttattttt ctaaatacat
+     4981 tcaaatatgt atccgctcat gagacaataa ccctgataaa tgcttcaata atattgaaaa
+     5041 aggaagagta tgagtattca acatttccgt gtcgccctta ttcccttttt tgcggcattt
+     5101 tgccttcctg tttttgctca cccagaaacg ctggtgaaag taaaagatgc tgaagatcag
+     5161 ttgggtgcac gagtgggtta catcgaactg gatctcaaca gcggtaagat ccttgagagt
+     5221 tttcgccccg aagaacgttt tccaatgatg agcactttta aagttctgct atgtggcgcg
+     5281 gtattatccc gtgttgacgc cgggcaagag caactcggtc gccgcataca ctattctcag
+     5341 aatgacttgg ttgagtactc accagtcaca gaaaagcatc ttacggatgg catgacagta
+     5401 agagaattat gcagtgctgc cataaccatg agtgataaca ctgcggccaa cttacttctg
+     5461 acaacgatcg gaggaccgaa ggagctaacc gcttttttgc acaacatggg ggatcatgta
+     5521 actcgccttg atcgttggga accggagctg aatgaagcca taccaaacga cgagcgtgac
+     5581 accacgatgc ctgtagcaat ggcaacaacg ttgcgcaaac tattaactgg cgaactactt
+     5641 actctagctt cccggcaaca attaatagac tggatggagg cggataaagt tgcaggacca
+     5701 cttctgcgct cggcccttcc ggctggctgg tttattgctg ataaatctgg agccggtgag
+     5761 cgtgggtctc gcggtatcat tgcagcactg gggccagatg gtaagccctc ccgtatcgta
+     5821 gttatctaca cgacggggag tcaggcaact atggatgaac gaaatagaca gatcgctgag
+     5881 ataggtgcct cactgattaa gcattggtaa ctgtcagacc aagtttactc atatatactt
+     5941 tagattgatt taaaacttca tttttaattt aaaaggatct aggtgaagat cctttttgat
+     6001 aatctcatga ccaaaatccc ttaacgtgag ttttcgttcc actgagcgtc agaccccgta
+     6061 gaaaagatca aaggatcttc ttgagatcct ttttttctgc gcgtaatctg ctgcttgcaa
+     6121 acaaaaaaac caccgctacc agcggtggtt tgtttgccgg atcaagagct accaactctt
+     6181 tttccgaagg taactggctt cagcagagcg cagataccaa atactgttct tctagtgtag
+     6241 ccgtagttag gccaccactt caagaactct gtagcaccgc ctacatacct cgctctgcta
+     6301 atcctgttac cagtggctgc tgccagtggc gataagtcgt gtcttaccgg gttggactca
+     6361 agacgatagt taccggataa ggcgcagcgg tcgggctgaa cggggggttc gtgcacacag
+     6421 cccagcttgg agcgaacgac ctacaccgaa ctgagatacc tacagcgtga gctatgagaa
+     6481 agcgccacgc ttcccgaagg gagaaaggcg gacaggtatc cggtaagcgg cagggtcgga
+     6541 acaggagagc gcacgaggga gcttccaggg ggaaacgcct ggtatcttta tagtcctgtc
+     6601 gggtttcgcc acctctgact tgagcgtcga tttttgtgat gctcgtcagg ggggcggagc
+     6661 ctatggaaaa acgccagcaa cgcggccttt ttacggttcc tggccttttg ctggcctttt
+     6721 gctcacatgt tctttcctgc gttatcccct gattctgtgg ataaccgtat taccgccttt
+     6781 gagtgagctg ataccgctcg ccgcagccga acgaccgagc gcagcgagtc agtgagcgag
+     6841 gaagcggaag agcgcccaat acgcaaaccg cctctccccg cgcgttggcc gattcattaa
+     6901 tgcagcaagc tcatggctga ctaatttttt ttatttatgc agaggccgag gccgcctcgg
+     6961 cctctgagct attccagaag tagtgaggag gcttttttgg aggcctaggc ttttgcaaaa
+     7021 agctccccgt ggcacgacag gtttcccgac tggaaagcgg gcagtgagcg caacgcaatt
+     7081 aatgtgagtt agctcactca ttaggcaccc caggctttac actttatgct tccggctcgt
+     7141 atgttgtgtg gaattgtgag cggataacaa tttcacacag gaaacagcta tgacatgatt
+     7201 acgaatttca caaataaagc atttttttca ctgcattcta gttgtggttt gtccaaactc
+     7261 atcaatgtat cttatcatgt ctggatcaac tggataactc aagctaacca aaatcatccc
+     7321 aaacttccca ccccataccc tattaccact gccaattacc tgtggtttca tttactctaa
+     7381 acctgtgatt cctctgaatt attttcattt taaagaaatt gtatttgtta aatatgtact
+     7441 acaaacttag tagt    
+//

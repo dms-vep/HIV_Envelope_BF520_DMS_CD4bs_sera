@@ -1,0 +1,75 @@
+Deep mutational scanning of HIV Envelope BF520 with anti-CD4 binding site sera and antibodies
+=============================================================================================
+
+This page documents the data analysis.
+For the actual code, see https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera
+
+Study by Caelan Radford, Jesse Bloom, et al..
+
+Workflow
+--------
+Below is the rulegraph for the `snakemake <https://snakemake.readthedocs.io/>`_ workflow.
+Click :download:`here <../../results/docs_source/filegraph.svg>` for the more detailed filegraph.
+
+.. image:: ../../results/docs_source/rulegraph.svg
+   :width: 800
+
+Analysis notebooks
+------------------
+Many of the plots in these notebooks are interactive, so try mousing over points for
+details, using dropdowns, etc.
+
+.. toctree::
+   :maxdepth: 1
+
+   analyze_pacbio_ccs
+   build_pacbio_consensus
+   build_codon_variants
+   analyze_func_scores
+   fit_globalepistasis
+   avg_muteffects
+   analyze_variant_counts
+   analyze_prob_escape
+   fit_polyclonal
+   avg_antibody_escape
+   validation_ICs
+   mutations_vs_natural_sequences
+
+Data files
+----------
+- `parental gene sequence <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/gene_sequence/codon.fasta>`_
+- `parental protein sequence <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/gene_sequence/protein.fasta>`_
+- `sequential-to-reference site numbers <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/site_numbering/site_numbering_map.csv>`_
+- `codon-variant table <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/variants/codon_variants.csv>`_
+- `processed barcode sequencing runs <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/barcode_runs/processed_barcode_runs.csv>`_
+- `variant counts <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/variant_counts>`_
+- `functional selection experiments <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/func_scores/functional_selections.csv>`_
+- `mutation effects for each functional selection <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/globalepistasis_fits>`_
+- `mutation functional effects replicate average (observed phenotype) <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/muteffects_functional/muteffects_observed.csv>`_
+- `mutation functional effects replicate average (latent phenotype) <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/muteffects_functional/muteffects_latent.csv>`_
+- `antibody selection experiments <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/prob_escape/antibody_selections.csv>`_
+- `antibody escape values <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/antibody_escape>`_
+- `sequential to reference site numbering <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/site_numbering/site_numbering_map.csv>`_
+- `PDB with 1-18 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/1-18_epitope_1.pdb>`_
+- `PDB with 3BNC117 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/3BNC117_epitope_1.pdb>`_
+- `PDB with PGT151 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/PGT151_epitope_1.pdb>`_
+- `PDB with IDC561 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/IDC561_epitope_1.pdb>`_
+- `PDB with IDC513 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/IDC513_epitope_1.pdb>`_
+- `PDB with IDC508 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/IDC508_epitope_1.pdb>`_
+- `PDB with IDF033 escape values as b factors <https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera/blob/main/./results/escape_PDBs/IDF033_epitope_1.pdb>`_
+
+Interactive plots of mutation functional effects
+------------------------------------------------
+- `Observed phenotype effects <muteffects_observed_heatmap.html>`_
+- `Latent phenotype effects <muteffects_latent_heatmap.html>`_
+
+Interactive plots of mutation antibody escape
+---------------------------------------------
+- `1-18 escape plot <1-18_escape_plot.html>`_
+- `3BNC117 escape plot <3BNC117_escape_plot.html>`_
+- `IDC508 escape plot <IDC508_escape_plot.html>`_
+- `IDC513 escape plot <IDC513_escape_plot.html>`_
+- `IDC561 escape plot <IDC561_escape_plot.html>`_
+- `IDF033 escape plot <IDF033_escape_plot.html>`_
+- `PGT151 escape plot <PGT151_escape_plot.html>`_
+
