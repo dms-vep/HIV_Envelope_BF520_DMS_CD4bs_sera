@@ -52,7 +52,7 @@ A,2022-10-17_rescue-4_no-antibody_control_2,1510.4,15,True,no
 B,2022-08-04_rescue-2_VSVG_control_1,757.1,15,True,no
 B,2022-08-04_rescue-2_VSVG_control_2,767.6,15,True,no
 B,2022-08-04_rescue-2_antibody_IDC561_0.75_1,764.2,15,True,yes
-B,2022-08-04_rescue-2_antibody_IDC561_1.5_1,1020.7,15,True,no
+B,2022-08-04_rescue-2_antibody_IDC561_1.5_1,1020.7,15,True,yes
 B,2022-08-04_rescue-2_antibody_IDC561_3.0_1,801.1,15,True,no
 B,2022-08-04_rescue-2_no-antibody_control_1,803.5,15,True,no
 B,2022-08-04_rescue-2_no-antibody_control_2,737.4,15,True,no
