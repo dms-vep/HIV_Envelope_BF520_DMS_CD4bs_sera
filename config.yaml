@@ -17,7 +17,7 @@ github_user: dms-vep
 github_branch: main
 description: Deep mutational scanning of HIV Envelope BF520 with anti-CD4 binding site sera and antibodies
 year: 2023
-authors: Caelan Radford, Jesse Bloom, et al.
+authors: Caelan Radford, Jesse Bloom, et al. (https://www.biorxiv.org/content/10.1101/2023.03.23.533993v1.abstract)
 
 # ----------------------------------------------------------------------------
 # Parameters for analysis

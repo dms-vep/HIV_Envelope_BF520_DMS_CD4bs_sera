@@ -1,5 +1,5 @@
 # Deep mutational scanning of the HIV Envelope strain BF520 using a barcoded lentiviral vector
-Study by Caelan Radford, Jesse Bloom, et al.
+Study by Caelan Radford, Jesse Bloom, et al. See the pre-print [here](https://www.biorxiv.org/content/10.1101/2023.03.23.533993v1.abstract).
 
 For documentation of the analysis, see [https://dms-vep.github.io/HIV_Envelope_BF520_DMS_CD4bs_sera/](https://dms-vep.github.io/HIV_Envelope_BF520_DMS_CD4bs_sera/).
 
