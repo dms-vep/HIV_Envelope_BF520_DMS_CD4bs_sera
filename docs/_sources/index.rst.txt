@@ -4,7 +4,7 @@ Deep mutational scanning of HIV Envelope BF520 with anti-CD4 binding site sera a
 This page documents the data analysis.
 For the actual code, see https://github.com/dms-vep/HIV_Envelope_BF520_DMS_CD4bs_sera
 
-Study by Caelan Radford, Jesse Bloom, et al..
+Study by Caelan Radford, Jesse Bloom, et al. See the pre-print here (https://www.biorxiv.org/content/10.1101/2023.03.23.533993v1).
 
 Workflow
 --------
